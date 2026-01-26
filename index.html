@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baai.io – AI Workforce</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #1a0033, #050109);
+      color: white;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 18px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0,0,0,0.45);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+    }
+
+    header .logo {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 24px;
+      font-weight: bold;
+      opacity: 0.85;
+    }
+
+    header nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      min-height: 100vh;
+      padding: 140px 24px 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      max-width: 640px;
+      font-size: 1.15rem;
+      opacity: 0.85;
+    }
+
+    .cta {
+      margin-top: 36px;
+      padding: 16px 44px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(135deg, #9b4bff, #6b2cff);
+      border: none;
+      border-radius: 16px;
+      cursor: pointer;
+      box-shadow: 0 0 30px rgba(155,75,255,0.6);
+    }
+
+    section {
+      padding: 100px 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 56px;
+      font-size: 2.2rem;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 32px;
+    }
+
+    .feature {
+      padding: 28px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.12);
+      text-align: center;
+    }
+
+    .pricing {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .price-card {
+      width: 260px;
+      padding: 32px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.12);
+      text-align: center;
+    }
+
+    .price {
+      font-size: 1.6rem;
+      font-weight: bold;
+      margin: 14px 0;
+    }
+
+    footer {
+      padding: 48px 24px;
+      text-align: center;
+      opacity: 0.55;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Baai.io</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#start">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Your AI Workforce</h1>
+    <p>
+      Autonomous AI agents that think, plan, collaborate and execute —
+      so your work scales without limits.
+    </p>
+    <button class="cta">Launch Baai</button>
+  </section>
+
+  <section id="features">
+    <h2>What Baai Can Do</h2>
+    <div class="features">
+      <div class="feature">Autonomous Agents</div>
+      <div class="feature">Multi-Agent Collaboration</div>
+      <div class="feature">Galaxy Interface</div>
+      <div class="feature">API & Automation</div>
+      <div class="feature">Agent Marketplace</div>
+      <div class="feature">Real-Time Insight</div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <div class="price">€19 / mo</div>
+      </div>
+      <div class="price-card">
+        <h3>Pro</h3>
+        <div class="price">€49 / mo</div>
+      </div>
+      <div class="price-card">
+        <h3>Elite</h3>
+        <div class="price">€99 / mo</div>
+      </div>
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <div class="price">Custom</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="start">
+    <h2>Get Started</h2>
+    <p style="text-align:center; max-width:600px; margin:0 auto 32px; opacity:0.8;">
+      Create your first AI workforce in under one minute.
+    </p>
+    <div style="text-align:center;">
+      <button class="cta">Create Account</button>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Baai.io — All rights reserved
+  </footer>
+
+</body>
+</html>
