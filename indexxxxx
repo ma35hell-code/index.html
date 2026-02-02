@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>goBaai — Autonomous AI Workforce</title>
+
+  <!-- SEO -->
+  <meta name="description" content="goBaai is an autonomous AI workforce. Deploy intelligent agents that plan, think and execute work on autopilot." />
+  <link rel="canonical" href="https://gobaai.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="goBaai — Autonomous AI Workforce" />
+  <meta property="og:description" content="Deploy autonomous AI agents that work while you sleep." />
+  <meta property="og:url" content="https://gobaai.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tally -->
+  <script async src="https://tally.so/widgets/embed.js"></script>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background:
+        radial-gradient(800px 400px at 50% -10%, rgba(155,75,255,0.25), transparent),
+        radial-gradient(600px 300px at 80% 10%, rgba(107,44,255,0.18), transparent),
+        #050109;
+      color: #ffffff;
+    }
+
+    /* HEADER */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 18px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(14px);
+      z-index: 100;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 1.3rem;
+      letter-spacing: 0.3px;
+    }
+
+    .logo img {
+      height: 28px;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 28px;
+      font-weight: 600;
+      opacity: 0.75;
+      transition: opacity 0.2s;
+    }
+
+    nav a:hover { opacity: 1; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      padding: 160px 24px 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(3rem, 6vw, 4.2rem);
+      line-height: 1.05;
+      margin-bottom: 20px;
+      font-weight: 800;
+    }
+
+    .hero p {
+      max-width: 720px;
+      font-size: 1.2rem;
+      opacity: 0.82;
+    }
+
+    .cta {
+      margin-top: 40px;
+      padding: 18px 56px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #ffffff;
+      background: linear-gradient(135deg, #9b4bff, #6b2cff);
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 35px rgba(155,75,255,0.6);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 55px rgba(155,75,255,0.9);
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 120px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 64px;
+    }
+
+    /* CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 36px;
+    }
+
+    .card {
+      padding: 36px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.14);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    /* PRODUCT */
+    .product {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      opacity: 0.85;
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 56px 24px;
+      text-align: center;
+      opacity: 0.55;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <!-- Replace src with your transparent goBaai logo -->
+    <img src="gobaai-logo.png" alt="goBaai logo" />
+    goBaai
+  </div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#product">Product</a>
+    <a href="#start">Get Started</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <h1>Your Autonomous<br>AI Workforce</h1>
+    <p>
+      Deploy intelligent agents that plan, think and execute work —
+      continuously, reliably, and without limits.
+    </p>
+    <button
+      class="cta"
+      data-tally-open="68Z4GB"
+      data-tally-layout="modal">
+      Join the Waitlist
+    </button>
+  </section>
+
+  <section id="features">
+    <h2>What goBaai Unlocks</h2>
+    <div class="grid">
+      <div class="card">Autonomous AI Agents</div>
+      <div class="card">Multi-Agent Collaboration</div>
+      <div class="card">Planning & Execution Engine</div>
+      <div class="card">API-First Architecture</div>
+      <div class="card">Agent Marketplace</div>
+      <div class="card">Real-Time Intelligence</div>
+    </div>
+  </section>
+
+  <section id="product">
+    <h2>Baai Core</h2>
+    <p class="product">
+      Baai Core is the intelligence layer behind your AI workforce —
+      orchestrating agents, understanding context, and continuously optimizing execution.
+    </p>
+  </section>
+
+  <section id="start">
+    <h2>Start Building</h2>
+    <div style="text-align:center;">
+      <button
+        class="cta"
+        data-tally-open="68Z4GB"
+        data-tally-layout="modal">
+        Get Early Access
+      </button>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 goBaai.com — All rights reserved
+</footer>
+
+</body>
+</html>
